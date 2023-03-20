@@ -28,8 +28,8 @@ from tensor2robot.proto import t2r_pb2
 import tensorflow.compat.v1 as tf
 
 from google.protobuf import text_format
-# from tensorflow.contrib import framework as contrib_framework
-from tf_slim import framework as contrib_framework
+from tensorflow.contrib import framework as contrib_framework
+# from tf_slim import framework as contrib_framework
 
 nest = contrib_framework.nest
 TSPEC = contrib_framework.TensorSpec
